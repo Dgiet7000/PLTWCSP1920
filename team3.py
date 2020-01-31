@@ -9,8 +9,7 @@
 team_name = 'Team 3.'# Only 10 chars displayed
 strategy_name = 'Collude but retaliate'
 strategy_description = '''\
-Collude first round. Collude, except in a round after getting 
-a severe punishment.'''
+Collude first round, then continue to collude unless the other team has more than 3 betrayals in the last 10 rounds.'''
 
 import random
 
